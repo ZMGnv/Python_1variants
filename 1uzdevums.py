@@ -5,12 +5,11 @@ Tomēr, ja summa ir no 15 līdz 20, tā atgriezīs 20.
 IZLABOT programmā pieļautās kļūdas!!!
 """
 def summa(x, y):
- summa = x + y
-    if summa in range(15; 20):
-        return 20
-    else
-        return summa
-
-print(summa(10, 6))
-print(summa(10, 2))
-print(summa(10, 12))
+ x=float(input("ievadi skaitli x:"))
+ y=float(input("ievadi skaitli x:"))
+ summa=x + y
+    range_1 = range(15; 20):
+    if summa in range_1 :
+    return 20
+    else :
+    print(summa)
