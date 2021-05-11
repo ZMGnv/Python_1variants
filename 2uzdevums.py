@@ -1,4 +1,4 @@
-  """
+"""
     Funkcija koks akceptē trīs argumentus - skaiļus viens, divi un trīs, 
     aprēķina to summas kvadrātu un atgriež to.
     Pārbaudiet funkcijas darbību ar dažādiem argumentiem, 
@@ -11,3 +11,9 @@
     Atgriež:
         int vai float -- argumentu summa
 """
+
+def koks(viens, divi, tris):
+  koks=float(round((viens+divi+tris)**2,2))
+  return koks
+
+print(koks(-1.98,21.24,5.15))
